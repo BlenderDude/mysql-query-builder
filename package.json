@@ -1,0 +1,20 @@
+{
+  "name": "mysql-query-builder",
+  "version": "1.0.0",
+  "description": "A simple mysql query creator",
+  "main": "index.js",
+  "repository": "https://github.com/BlenderDude/mysql-query-builder",
+  "author": "Daniel Abdelsamed",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
